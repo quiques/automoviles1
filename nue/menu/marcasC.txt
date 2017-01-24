@@ -1,0 +1,52 @@
+Abarth
+,acura
+,Alfa Romeo
+,Aston Martin
+,Audi
+,BAIC
+,Bentley
+,BMW
+,Buick
+,Cadillac
+,Chang'an
+,Chevrolet
+,Chrysler
+,Dodge
+,DFSK
+,FAW
+,Ferrari
+,Fiat
+,Ford Motor Company de México
+,GMC
+,Honda
+,Hyundai
+,Infiniti
+,Jaguar
+,Jeep
+,Kia
+,Lamborghini
+,Land Rover
+,Lincoln
+,Lotus
+,Maserati
+,Mazda
+,McLaren Automotive
+,Mercedes-Benz
+,MINI
+,Mitsubishi Motors de México
+,Nissan Mexicana
+,Peugeot
+,Porsche
+,Ram
+,Renault
+,Rolls Royce Motor Cars
+,SEAT
+,Smart
+,SRT
+,Subaru
+,Suzuki
+,Tesla Motors
+,Toyota
+,Volkswagen
+,Volvo Cars
+,VÜHL

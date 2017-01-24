@@ -1,0 +1,30 @@
+body {background:#eeeee6; color:navy; text-align:center;}/*Colores de ltexto y del fondo */
+
+.container { 
+	text-align:center; }/*Texto del contenedor */
+
+/*h2 {color:red; 
+	text-align:center; } colores para el h2*/
+header {background-color: white;}/*color del encabezado */
+/*nav {background-color: red; border:solid 1px blue;} Esta es la opcion el estilo del estilo nav*/
+aside {background-color: ; text-align:center; width:100%; height:60%/*aside donde se encuentra el menu*/
+		 /* background-image: url("./imagenes/img.jpg"); */ }
+footer {
+ text-align:center; }
+ 
+ /*todo loq tiene que ver con el pie de pag*/
+section {  text-align: center;
+		   background-color: #eee;	width:100%; }
+
+.menuPrincipal {font-size: 8 px; /*ETSO ES PARA LOS BOTONES DEL MENU*/ 
+				width:100%; margin-top:.9em; } 
+input { background-color: #fea; }
+.formCatalogos {background-color: #ddd; 
+	text-align: left; padding-left:10em;}
+.corto { width: 6em;}
+.mediano { width: 10em;}
+.largo { width: 20em;}
+.extralargo { width:40em;}
+.formReportes{background-color:red;text-align: left; padding-left: 2em;}
+
+/*todo lo ultmo son estilos para el tamño de ña pag aunque es opcionla por el 

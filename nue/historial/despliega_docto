@@ -1,0 +1,7 @@
+
+<?php
+$numSerie=$_GET["numSerie"];
+
+
+
+?>
