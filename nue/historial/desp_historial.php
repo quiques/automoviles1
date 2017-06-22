@@ -47,13 +47,13 @@ include("../conexion/conexion.php");
 $busqueda = new conexion; 
 	
 	$query2 ="select count(*) as cuantos 
-			from aseguramiento where  activo!='N'";
+			from tbl_aseguramiento where  activo!='N'";
 	$consulta2 = mysql_query($query2,$busqueda->conexion);
 	$row2 = mysql_fetch_array($consulta2);	
 	$cuantos = $row2["cuantos"];
 
  	$query ="select * 
- 	 		from aseguramiento 
+ 	 		from tbl_aseguramiento 
  	 		where  activo!='N'
  	 		ORDER BY Fecha desc limit 50";
 	

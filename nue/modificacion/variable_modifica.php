@@ -54,7 +54,7 @@ $serie = $_POST['serie'];
 
 $busqueda = new conexion; 
 
-	$query = "select * from aseguramiento where NumSerie ='".$serie."'";
+	$query = "select * from tbl_aseguramiento where NumSerie ='".$serie."'";
 	$consulta = mysql_query($query,$busqueda->conexion);
 
 //    if (isset($_POST['Marca'])&&($_POST['Submarca'])&&($_POST['Transmision'])&&($_POST['NumPlaca'])&&

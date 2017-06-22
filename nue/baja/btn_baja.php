@@ -11,7 +11,7 @@ $numserie =$_POST['nserie'];
 
 				
 
-				$query="UPDATE aseguramiento set  Activo ='N'  where NumSerie ='".$numserie."'"; 
+				$query="UPDATE tbl_aseguramiento set  Activo ='N'  where NumSerie ='".$numserie."'"; 
 
 				$consulta = mysql_query($query,$busqueda->conexion);
 	

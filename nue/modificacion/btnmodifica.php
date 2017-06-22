@@ -29,7 +29,7 @@ $busqueda = new conexion;
 				
 				//,	NumSerie='".$numserie."'	
 
-				$query="UPDATE aseguramiento set  Marca ='".$marca."', Submarca = '".$submarca."',
+				$query="UPDATE tbl_aseguramiento set  Marca ='".$marca."', Submarca = '".$submarca."',
 				Transmision = '".$transmision."',NumPlaca = '".$numplaca."',NumMotor='".$nummotor."',
 				Funcion='".$funcion."',NumEconomico= '".$numeconomico."',
 				EquipoEspecial='".$equipoespecial."',ValorEquipoEspecial='".$valorequipoespecial."',

@@ -20,7 +20,7 @@ $busqueda = new conexion;
 		$condicion.="  NumSerie ='".$serie."'";
 	}
 
-	$query = "select * from aseguramiento ".$condicion;
+	$query = "select * from tbl_aseguramiento ".$condicion;
 	//$query = "select * from aseguramiento where NumPlaca ='".$plac."' and NumSerie ='".$serie."'";
 	 
 

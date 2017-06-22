@@ -3,6 +3,23 @@ require('../fpdf/fpdf.php');
  
 class PDF extends FPDF
 {
+
+    /** function Header()
+    {
+        // Logo
+        $this->Image('../cdmx.jpg',0,0,100);
+        // Arial bold 15
+        $this->SetFont('Arial','B',15);
+        // Movernos a la derecha
+        $this->Cell(80);
+        // Título
+        $this->Cell(90,20,'Sistema de Control de Vehículos de la Gustavo A. Madero',0,0,'C');
+        // Salto de línea
+        $this->Ln(20);
+
+    
+    }**/
+
     function cabeceraHorizontal($cabecera)
     {
         $this->SetXY(10, 10);
@@ -17,7 +34,10 @@ class PDF extends FPDF
             $this->Cell(42,7, utf8_decode($fila),1, 0 , 'L',true );
             
         }
+
+        
     }
+
  
     function datosHorizontal($datos)
     {

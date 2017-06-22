@@ -26,7 +26,7 @@ class myDBC {
  
     public function seleccionar_datos()
     {
-        $q = "select * from aseguramiento where  activo!='N' ";
+        $q = "select * from tbl_aseguramiento where  activo!='N' ";
  
         $result = $this->mysqli->query($q);
  

@@ -6,9 +6,10 @@ else
 	$numSerie=$_GET["numSerie"];
 
 
-define("IMG_ANCHO","250");
-define("IMG_ALTO","300");
-$imagenesLinea = 5; 
+define("IMG_ANCHO","380");
+define("IMG_ALTO","400");
+$imagenesLinea = 3; 
+
 
 $nuevo_direc = "../archivos/";
 chdir($nuevo_direc);
@@ -21,23 +22,22 @@ $x=1;
  while (($file=readdir($dir))!==false)
     { 
     $nombreArchivo=substr($file,0,strlen($numSerie));
-   if (substr_count($file,".jpg")!==0
-   		and strcmp ($numSerie,$nombreArchivo)==0)
+   
+   if (substr_count($file,".pdf")!==0	and strcmp ($numSerie,$nombreArchivo)==0)
     {
-    if ($x%$imagenesLinea==1) 
+    if ($x%$imagenesLinea!=0) 
     { printf("<tr>");   }	
     printf ("<td>");
-	printf ("<a href='visor_jpg.php?numSerie=".$file."'>");
-	printf ("<img src=".$nuevo_direc.$file."  "); 
+	//printf ("<a href='visor_jpg.php?numSerie=".$file."'>");
+	//echo  $nuevo_direc.$file."<br>";
+  printf ("<embed src=".$nuevo_direc.$file."  "); 
 	printf (" width=".IMG_ANCHO ." height=". IMG_ALTO." >");
-	printf ("</a>");
-	//printf($file);el archivo seleccionado
-  //print($nuevo_direc);Ruta del archivo nuevamente 
+	//printf ("</a>");
 	printf ("</td>");
 
     if ($x%$imagenesLinea==0) 
     { printf("</tr>");   }	
-    $x++;
+    $x++; 
   } // IF
 } // while
   printf("</table>");

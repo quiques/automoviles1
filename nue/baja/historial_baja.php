@@ -47,7 +47,7 @@ $serie = $_POST['serie'];
 
 $busqueda = new conexion; 
 
-	$query = "select * from aseguramiento where NumSerie ='".$serie."'";
+	$query = "select * from tbl_aseguramiento where NumSerie ='".$serie."'";
 	// 23-11-16-echo $query;
 	$consulta = mysql_query($query,$busqueda->conexion);
 

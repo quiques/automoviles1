@@ -6,7 +6,7 @@ class conexion{
 	private $server = "localhost"; 
 	private $usuario = "root"; 
 	private $pass = "";
-	private $db = "autos"; 
+	private $db = "db_autos"; 
 	private $user ; 
 	private $password;
 
